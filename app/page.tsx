@@ -72,10 +72,10 @@ export default function Home() {
 
               <div className="space-y-6 max-w-md">
                 <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                  Frontend Developer crafting digital experiences at the intersection of
-                  <span className="text-foreground"> design</span>,<span className="text-foreground"> technology</span>,
+                  AI/ML Engineer exploring the frontiers of 
+                  <span className="text-foreground"> intelligence</span>,<span className="text-foreground"> technology</span>,
                   and
-                  <span className="text-foreground"> user experience</span>.
+                  <span className="text-foreground"> design</span>.
                 </p>
 
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 text-sm text-muted-foreground">
@@ -83,7 +83,7 @@ export default function Home() {
                     <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
                     Available for work
                   </div>
-                  <div>Philippines</div>
+                  <div>United States</div>
                 </div>
               </div>
             </div>
@@ -92,16 +92,16 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="text-sm text-muted-foreground font-mono">CURRENTLY</div>
                 <div className="space-y-2">
-                  <div className="text-foreground">Frontend Developer</div>
-                  <div className="text-muted-foreground">@ Hububble</div>
-                  <div className="text-xs text-muted-foreground">2021 — Present</div>
+                  <div className="text-foreground">NLP Researcher</div>
+                  <div className="text-muted-foreground">@ UNT</div>
+                  <div className="text-xs text-muted-foreground">2025 — Present</div>
                 </div>
               </div>
 
               <div className="space-y-4">
                 <div className="text-sm text-muted-foreground font-mono">FOCUS</div>
                 <div className="flex flex-wrap gap-2">
-                  {["HubL", "React", "TypeScript", "HubSpot CMS", "Node.js"].map((skill) => (
+                  {["Adversarial AI", "LLM", "PyTorch", "Transformers", "Backend Dev", "MLOps"].map((skill) => (
                     <span
                       key={skill}
                       className="px-3 py-1 text-xs border border-border rounded-full hover:border-muted-foreground/50 transition-colors duration-300"
@@ -122,8 +122,8 @@ export default function Home() {
         >
           <div className="space-y-12 sm:space-y-16">
             <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
-              <h2 className="text-3xl sm:text-4xl font-light">Selected Work</h2>
-              <div className="text-sm text-muted-foreground font-mono">2019 — 2025</div>
+              <h2 className="text-3xl sm:text-4xl font-light">Work Experience</h2>
+              <div className="text-sm text-muted-foreground font-mono">2022 — Present</div>
             </div>
 
             <div className="space-y-8 sm:space-y-12">
@@ -143,18 +143,18 @@ export default function Home() {
                   tech: ["React", "GraphQL", "Framer Motion"],
                 },
                 {
-                  year: "2021",
-                  role: "Full Stack Developer",
-                  company: "Stripe",
+                  year: "2023",
+                  role: "Freelance Web Developer",
+                  company: "",
                   description: "Developed payment infrastructure and merchant-facing dashboard features.",
                   tech: ["Ruby", "React", "PostgreSQL"],
                 },
                 {
-                  year: "2019",
-                  role: "Software Engineer",
-                  company: "Airbnb",
-                  description: "Created booking flow optimizations and host management tools.",
-                  tech: ["React", "Node.js", "MySQL"],
+                  year: "2022",
+                  role: "Systems Admin Intern",
+                  company: "NexGenTech Pvt Ltd,  New Delhi, India",
+                  description: "Managed day to day systems tasks, operations and automations",
+                  tech: ["Red Hat Linux", "Ansible", "Python"],
                 },
               ].map((job, index) => (
                 <div
@@ -280,7 +280,7 @@ export default function Home() {
                     href="mailto:test@example.com"
                     className="group flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
                   >
-                    <span className="text-base sm:text-lg">test@example.com</span>
+                    <span className="text-base sm:text-lg">arnavverma522@gmail.com</span>
                     <svg
                       className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
                       fill="none"
@@ -299,10 +299,12 @@ export default function Home() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { name: "GitHub", handle: "@arnavverma", url: "#" },
-                  { name: "v0.dev", handle: "@arnavverma", url: "#" },
-                  { name: "HubSpot Community", handle: "@arnavverma", url: "#" },
-                  { name: "LinkedIn", handle: "arnavverma", url: "#" },
+                  { name: "GitHub", handle: "@namesarnav", url: "https://github.com/namesarnav" },
+                  { name: "HuggingFace", handle: "@namsarnav", url: "https://huggingface.com/namesarnav" },
+                  { name: "LinkedIn", handle: "namesarnav", url: "https://linkedin.com/in/namesarnav" },
+                  { name: "X", handle: "@namesarnav", url: "https://x.com/namesarnav" },
+                  { name: "Medium", handle: "namesarnav", url: "https://medium.com/@namesarnav" },
+                  { name: "Hashnode", handle: "@namesarnav", url: "https://hashnode.com/namesarnav" },
                 ].map((social) => (
                   <Link
                     key={social.name}
@@ -326,7 +328,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 sm:gap-8">
             <div className="space-y-2">
               <div className="text-sm text-muted-foreground">© 2025 Arnav Verma. All rights reserved.</div>
-              <div className="text-xs text-muted-foreground">Built with v0.dev by Arnav Verma</div>
+              <div className="text-xs text-muted-foreground">Built by Arnav Verma</div>
             </div>
 
             <div className="flex items-center gap-4">
