@@ -129,17 +129,17 @@ export default function Home() {
             <div className="space-y-8 sm:space-y-12">
               {[
                 {
-                  year: "2023",
-                  role: "Senior Frontend Engineer",
-                  company: "Vercel",
-                  description: "Leading frontend architecture for developer tools and AI-powered features.",
-                  tech: ["React", "TypeScript", "Next.js"],
+                  year: "2025",
+                  role: "Undergraduate Researcher",
+                  company: "College of Engineering, University of North Texas",
+                  description: "Researching on Adversarial LLMs",
+                  tech: ["LLM", "Hugginface", "PyTorch"],
                 },
                 {
-                  year: "2022",
-                  role: "Frontend Engineer",
-                  company: "Linear",
-                  description: "Built performant interfaces for project management and team collaboration.",
+                  year: "2025",
+                  role: "Research Intern Engineer",
+                  company: "University of North Texas",
+                  description: "",
                   tech: ["React", "GraphQL", "Framer Motion"],
                 },
                 {
