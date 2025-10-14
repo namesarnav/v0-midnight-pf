@@ -129,17 +129,17 @@ export default function Home() {
             <div className="space-y-8 sm:space-y-12">
               {[
                 {
-                  year: "2023",
-                  role: "Senior Frontend Engineer",
-                  company: "Vercel",
-                  description: "Leading frontend architecture for developer tools and AI-powered features.",
-                  tech: ["React", "TypeScript", "Next.js"],
+                  year: "2025",
+                  role: "Undergraduate Researcher",
+                  company: "College of Engineering, University of North Texas",
+                  description: "Researching on Adversarial LLMs",
+                  tech: ["LLM", "Hugginface", "PyTorch"],
                 },
                 {
-                  year: "2022",
-                  role: "Frontend Engineer",
-                  company: "Linear",
-                  description: "Built performant interfaces for project management and team collaboration.",
+                  year: "2025",
+                  role: "Research Intern Engineer",
+                  company: "University of North Texas",
+                  description: "",
                   tech: ["React", "GraphQL", "Framer Motion"],
                 },
                 {
@@ -280,7 +280,7 @@ export default function Home() {
                     href="mailto:test@example.com"
                     className="group flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
                   >
-                    <span className="text-base sm:text-lg">arnavv2003@gmail.com</span>
+                    <span className="text-base sm:text-lg">arnavverma522@gmail.com</span>
                     <svg
                       className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
                       fill="none"
